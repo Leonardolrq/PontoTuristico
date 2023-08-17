@@ -1,0 +1,148 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(src/img/backgroud.2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+a:link {
+    color: aliceblue;
+    text-decoration: none;
+}
+a:visited {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.menu{
+    height: 6vh;
+    width: 100%;
+    background: rgba(129, 129, 129, 0.42);
+    backdrop-filter: blur(1.0px);
+    display: flex;
+    justify-content: end;
+}
+.main{
+    height: 88vh;
+    width: 100%;
+}
+.container{
+    margin: 20px;
+    height: 790px;
+    display: flex;
+    border-right: 4px solid #FFC700;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+}
+.footer
+{
+    height: 6vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.452);
+    backdrop-filter: blur(1.0px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerObjects{
+    width: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footerText{
+    color: aliceblue;
+    font-size: x-large;
+    font-family: Verdana;
+}
+.menuButton{
+    padding-right: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    font-family: Verdana; 
+}
+.selectButton{
+    border: 4px solid #FFC700;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background: rgba(0, 0, 0, 0.42);
+    backdrop-filter: blur(0.0px);
+    border-radius: 5px;
+}
+.sombraTexto{
+    text-shadow: 2px 4px 3px rgba(2, 2, 2, 0.884);
+}
+.bordaTexto{
+    text-shadow:
+    -1px 0px 0px rgb(126, 126, 126),
+    1px 0px 0px rgb(131, 131, 131),
+    0px -1px 0px rgb(153, 153, 153),
+    0px 1px 0px rgb(121, 121, 121);color: rgb(255, 255, 255);
+}
+.svg {
+    filter: invert(100%);
+}
+.divSocialLogos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.socialLogo{
+    padding-bottom: 5px;
+}
+.divText{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    padding-right: 10px;
+    width: 95vw;
+}
+.textMain{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.pText{
+    margin-bottom: -5px;
+    
+}
+.divTextSobre{
+    width: auto;
+}
+.subText{
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.452);
+    backdrop-filter: blur(1.0px);
+}
+.subText2{
+    padding-top: 5vh;
+    margin-top: 32vh;
+    padding-left: 20vw;
+}
+.textf{
+    font-size: large;
+}
+.cf{
+    src: url(src/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-family: 'Open Sans';
+}

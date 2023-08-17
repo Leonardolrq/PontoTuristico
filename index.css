@@ -1,0 +1,128 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(src/img/backgroud.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+a:link {
+    text-decoration: none;
+    color: aliceblue;
+}
+a:visited {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    text-decoration: solid aliceblue;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.menu{
+    height: 6vh;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.42);
+    backdrop-filter: blur(1.0px);
+    display: flex;
+    justify-content: end;
+}
+.main{
+    height: 88vh;
+    width: 100%;
+}
+.container{
+    margin: 20px;
+    height: 790px;
+    display: flex;
+    border-right: 4px solid #FFC700;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+}
+.footer
+{
+    height: 6vh;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.42);
+    backdrop-filter: blur(1.0px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerObjects{
+    width: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footerText{
+    color: aliceblue;
+    font-size: x-large;
+    font-family: Verdana;
+}
+.menuButton{
+    padding-right: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    font-family: Verdana; 
+}
+.selectButton{
+    border: 4px solid #FFC700;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background: rgba(0, 0, 0, 0.42);
+    backdrop-filter: blur(0.0px);
+    border-radius: 5px;
+}
+.sombraTexto{
+    text-shadow: 2px 4px 3px rgba(43, 43, 43, 0.74);
+}
+.bordaTexto{
+    text-shadow:
+    -1px 0px 0px rgb(126, 126, 126),
+    1px 0px 0px rgb(131, 131, 131),
+    0px -1px 0px rgb(153, 153, 153),
+    0px 1px 0px rgb(121, 121, 121);color: rgb(255, 255, 255);
+}
+.svg {
+    filter: invert(100%);
+}
+.divSocialLogos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.socialLogo{
+    padding-bottom: 5px;
+}
+.divText{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    padding-right: 10px;
+}
+.textMain{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.pText{
+    margin-bottom: -5px;
+}
